@@ -10,7 +10,8 @@ int main(int argc, char *argv[]){
         exit(1);
     }
 
-    long _input, largest_factor, i;
+    long _input, largest_factor;
+    int i;
     
     _input = INPUT;
     largest_factor = 1;
