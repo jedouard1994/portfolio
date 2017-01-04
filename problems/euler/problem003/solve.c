@@ -10,13 +10,18 @@ int main(int argc, char *argv[]){
         exit(1);
     }
 
-    long i, j, factor;    
-    for(i = INPUT/2; i > 0; i--){
-        if(INPUT%i == 0){
-            factor = i;
-            break;
+    long _input, largest_factor, i;
+    
+    _input = INPUT;
+    largest_factor = 1;
+    for(i = 2; i <= _input; i++){
+        if(_input%i == 0){
+            if(i > largest_factor){
+                largest_factor = i;
+            }
+            _input/=i;
         }
     }
-    printf("%ld\n", factor);
+    printf("%ld\n", largest_factor);
 }
 
