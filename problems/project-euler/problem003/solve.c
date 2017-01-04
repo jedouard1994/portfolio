@@ -14,12 +14,17 @@ int main(int argc, char *argv[]){
     
     _input = INPUT;
     largest_factor = 1;
-    for(i = 2; i <= _input; i++){
+
+    i = 2;
+    while(i <= _input){
         if(_input%i == 0){
             if(i > largest_factor){
                 largest_factor = i;
             }
             _input/=i;
+        }
+        else{
+            i++;
         }
     }
     printf("%ld\n", largest_factor);
