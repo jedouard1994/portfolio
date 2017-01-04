@@ -8,5 +8,5 @@ source: 'https://projecteuler.net/'
 ~~~~~~~~~~ Program Usage ~~~~~~~~~~
 Use the command 'make' to compile. Following usage, the command 'make clean' can be used to remove executable, object, and backup files.
 
-usage: solve
+usage: ./solve
 
