@@ -61,7 +61,7 @@ int main(int argc, char *argv[]){
         long current_product, max_product;
 
         max_product = 0;
-        for(i = 0; i < input_filesize-SEQUENCE_SIZE; i++){
+        for(i = 0; i < input_filesize - SEQUENCE_SIZE; i++){
             current_product = 1;
             for(j = i; j < i + SEQUENCE_SIZE; j++){
                 char_num = input[j] - '0';
