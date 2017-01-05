@@ -4,7 +4,6 @@
 
 int NUM_LIMIT = 1000;
 
-
 int main(int argc, char *argv[]){
     if(argc != 1){
         //ensure correct program usage
