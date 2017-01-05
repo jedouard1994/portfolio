@@ -6,7 +6,7 @@ long INPUT = 600851475143;
 int main(int argc, char *argv[]){
     if(argc != 1){
         //ensure correct program usage
-        printf("usage: solve\n");
+        printf("usage: ./solve\n");
         exit(1);
     }
 
