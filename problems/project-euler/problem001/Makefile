@@ -1,5 +1,5 @@
-all: solve.c
-	c++ solve.c -o solve
+all: solve.cpp
+	c++ solve.cpp -o solve
 
 clean: 
 	$(RM) solve *.o *~ 
